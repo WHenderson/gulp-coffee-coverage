@@ -1,6 +1,9 @@
 # gulp-coffee-coverage
 gulp plugin for coffee-coverage. Compiles CoffeeScript into Javascript with coverage logic.
 
+[![Build Status](https://travis-ci.org/WHenderson/gulp-coffee-coverage.svg?branch=master)](https://travis-ci.org/WHenderson/gulp-coffee-coverage)
+[![Coverage Status](https://coveralls.io/repos/WHenderson/gulp-coffee-coverage/badge.svg?branch=master&service=github)](https://coveralls.io/github/WHenderson/gulp-coffee-coverage?branch=master)
+
 ## Usage
 
 ```javascript
