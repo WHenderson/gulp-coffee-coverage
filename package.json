@@ -2,6 +2,9 @@
   "name": "gulp-coffee-coverage",
   "version": "0.0.0",
   "description": "gulp plugin for coffee-coverage. Compiles CoffeeScript into JavaScript with coverage logic provided by coffee-coverage.",
+  "files": [
+    "dist"
+  ],
   "main": "dist/coverage.js",
   "directories": {
     "test": "test"
