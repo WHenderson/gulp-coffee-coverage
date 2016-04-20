@@ -1,1 +1,0 @@
-some..invalid..coffee..script
