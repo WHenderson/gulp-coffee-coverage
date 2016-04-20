@@ -11,7 +11,7 @@ var coverage = require('../');
 
 gulp.task('coffee-coverage', function() {
     return gulp.src('src/*.coffee')
-    .pipe(coverage().on('error', gutil.log))
+    .pipe(coverage({ bare: true }).on('error', gutil.log))
     .pipe(gulp.dest('dist'));
 });
 ```
