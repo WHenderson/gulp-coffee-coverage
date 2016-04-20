@@ -23,7 +23,6 @@ suite('basic', () ->
     test(name, (cb) ->
       gulp
       .src(path.join(__dirname, 'fixtures', input))
-      .on('data', (file) -> console.log('found', file.path))
       .pipe(gCoverage(options))
       .on('error', (err) ->
         if expectedError?
