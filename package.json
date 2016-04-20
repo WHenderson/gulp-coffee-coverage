@@ -45,6 +45,7 @@
   "devDependencies": {
     "chai": "^3.5.0",
     "coffee-script": "^1.10.0",
+    "coveralls": "^2.11.9",
     "del": "^2.2.0",
     "globby": "^4.0.0",
     "gulp": "gulpjs/gulp#4.0",
