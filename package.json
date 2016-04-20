@@ -7,6 +7,10 @@
     "test": "test"
   },
   "scripts": {
+    "preversion": "npm-git-library-version preversion",
+    "version": "npm-git-library-version version",
+    "postversion": "npm-git-library-version postversion",
+    "build": "gulp chained-1-build",
     "test": "gulp"
   },
   "repository": {
@@ -45,6 +49,7 @@
     "gulp-coffee": "^2.3.2",
     "gulp-rimraf": "^0.2.0",
     "gulp-spawn-mocha": "^2.2.2",
-    "gulp-util": "^3.0.7"
+    "gulp-util": "^3.0.7",
+    "npm-git-library-version": "^1.0.0"
   }
 }
