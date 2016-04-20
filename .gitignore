@@ -37,3 +37,4 @@ node_modules
 
 # ignore compiled output
 /dist
+/examples/dist
